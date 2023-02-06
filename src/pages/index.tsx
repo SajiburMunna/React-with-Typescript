@@ -1,3 +1,4 @@
+import Card from '@/components/Card'
 import { Inter } from '@next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -5,7 +6,12 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <>
-      <h1 className='text-red-600 text-center'>Sajibur Munna 101</h1>
+      <Card
+        title='Good things come not so easliy'
+        description='  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati ratione tempora totam nemo alias
+      reprehenderit. Perferendis sit dolor, ad corporis labore expedita dolores exercitationem beatae inventore. Ipsam
+      ducimus aliquid ab?'
+      />
     </>
   )
 }
